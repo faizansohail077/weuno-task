@@ -1,5 +1,5 @@
 import { Header } from "@/components";
-import { Experience, General, Hero, Possibilities } from "./_components";
+import { Experience, General, Hero, Place, Possibilities } from "./_components";
 
 export default function Home() {
   return (
@@ -12,6 +12,7 @@ export default function Home() {
         <Possibilities />
         <General/>
         <Experience/>
+        <Place/>
       </div>
     </>
   );
