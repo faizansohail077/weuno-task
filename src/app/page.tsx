@@ -1,4 +1,4 @@
-import { Header } from "@/components";
+import { Footer, Header } from "@/components";
 import { Experience, General, Hero, Place, Possibilities } from "./_components";
 
 export default function Home() {
@@ -13,6 +13,7 @@ export default function Home() {
         <General/>
         <Experience/>
         <Place/>
+        <Footer/>
       </div>
     </>
   );
