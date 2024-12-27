@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-
+import animation from 'tailwindcss-animate'
 export default {
     darkMode: ["class"],
     content: [
@@ -9,6 +9,9 @@ export default {
   ],
   theme: {
   	extend: {
+		backgroundImage: {
+			'custom-gradient': 'linear-gradient(97deg, #283606 0%, #0F1500 100%)',
+		  },
   		fontFamily: {
   			inter: [
   				'var(--font-inter)'
@@ -68,5 +71,5 @@ export default {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [animation],
 } satisfies Config;

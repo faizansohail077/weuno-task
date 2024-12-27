@@ -1,5 +1,5 @@
 import { Header } from "@/components";
-import { Hero } from "./_components";
+import { Experience, General, Hero, Possibilities } from "./_components";
 
 export default function Home() {
   return (
@@ -7,6 +7,11 @@ export default function Home() {
       <div className="bg-[url('/hero.png')] h-full bg-cover bg-center bg-no-repeat">
         <Header />
         <Hero />
+      </div>
+      <div className="bg-custom-gradient bg-no-repeat bg-padding-box">
+        <Possibilities />
+        <General/>
+        <Experience/>
       </div>
     </>
   );
